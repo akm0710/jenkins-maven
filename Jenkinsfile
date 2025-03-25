@@ -39,7 +39,7 @@ sh "mvn install"
 }
 }
 
-  stage "Shell Script"{
+  stage ("Shell Script"){
     steps{
       script{
         '''#!/bin/bash
